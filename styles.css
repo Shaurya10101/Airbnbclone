@@ -1,80 +1,113 @@
-.navbar {
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-    position: relative;
+.flex{
+    display: flex;}
+.left{
+    justify-content: space-around;
 }
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 20px;
-    height: 80px;
+.mid{
+    width: 360px;
+    align-content: center;
+    justify-content:space-between;
+    border-radius: 2rem;
+    background-color: rgba(110, 114, 114, 0.2);
+    box-shadow: rgba(65, 63, 63, 0.196) 0px 4px 12px;
+    padding:2px 2px;
 }
-
-.navbar-header {
-    display: flex;
-    align-items: center;
-}
-
-.navbar-brand {
-    display: block;
+.end{
+    width: 200px;
     height: 30px;
-    width: auto;
+    align-items: center;
+    justify-items:flex-start;
+    border-radius: 2rem;
+    padding:2px 2px;
+    background-color: rgba(165, 42, 42, 0.226);
 }
-
-.nav-links {
-    display: flex;
+.logo{
+    width: px;
+    height: 100px;
+    background-color: aqua;
+}
+.nav-links{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    justify-self: center;
 }
-
-.nav-links li {
-    margin-left: 20px;
+.nav-links li{
+    padding: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
-
-.nav-links li:first-child {
-    margin-left: 0;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #222;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.nav-links a:hover {
-    color: #ff5a5f;
-}
-
-.search-container {
-    display: flex;
-    align-items: center;
-}
-
-.search-input {
-    width: 400px;
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-right: 10px;
-}
-
-.search-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
+.searchbar{
+    height: 35px;
+    width: 250px;
     border: none;
-    border-radius: 4px;
-    background-color: #ff5a5f;
-    color: #fff;
-    font-size: 18px;
+    border-right: 1px solid grey;
+    background: transparent;
+    align-items: center;
+    justify-content: space-around;
+    border-width: 1px;
+    font-weight: 550;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    margin: auto;
+    justify-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    align-content: center;
+}
+.navbar{
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section-1{
+    justify-items: center;
+    border-radius: 2rem;
+    width: 1380px;
+    margin: 50px 50px;
+    display: flex;
+    padding: 2px 2px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section-holder{
+    background-color:lavender;
+    align-items: center;
+    border-radius: 2rem;
+    margin: 4px;
+    width:1400px;
+    align-content: center;
+    justify-items: center;
+}
+.section-1 img{
+    border: none;
+    border-radius: 2rem;
+    padding: 10px;
+    background: none;
+    border: none;
+    width: 320px;
+    height: 320px;
+    margin: 2px;
+}
+.search-logo {
+    border: none;
+    border-radius:3rem;
+    width: 30px;
+    height: 25px;
+    justify-content: center;
+    align-content: center;
+    background: transparent;
+    padding: 3px 0.1px;
+}
+.places{
+    list-style: none;
+    flex-direction:column;
+}
+.profile{
+    border-radius: 2rem;
+    width: 10px;
+    height: 10px;
 }
