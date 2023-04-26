@@ -6,7 +6,7 @@
     justify-content: space-around;
 }
 .mid{
-    width: 360px;
+    width: 370px;
     align-content: center;
     justify-content:space-between;
     border-radius: 2rem;
@@ -59,7 +59,8 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-left: 7px;
+    margin-left: 8px;
+    white-space: nowrap;
 
 }
 header{
@@ -93,12 +94,13 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .section-holder{
+    display: flex;
+    flex-direction: column;
     background-color:lavender;
     align-items: center;
     border-radius: 2rem;
     margin: 4px;
     width:1400px;
-    align-content: center;
     justify-items: center;
 }
 .section-1 img{
