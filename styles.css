@@ -1,5 +1,7 @@
 .flex{
-    display: flex;}
+    display: flex;
+    justify-content: center;
+}
 .left{
     justify-content: space-around;
 }
@@ -9,8 +11,9 @@
     justify-content:space-between;
     border-radius: 2rem;
     background-color: rgba(110, 114, 114, 0.2);
-    box-shadow: rgba(65, 63, 63, 0.196) 0px 4px 12px;
-    padding:2px 2px;
+    box-shadow: rgba(65, 63, 63, 0.196) 1px 1px 6px 2px;
+    padding:3px 3px;
+    background-color: white;
 }
 .end{
     width: 200px;
@@ -20,11 +23,13 @@
     border-radius: 2rem;
     padding:2px 2px;
     background-color: rgba(165, 42, 42, 0.226);
+    background: transparent;
+    
+
 }
 .logo{
-    width: px;
-    height: 100px;
-    background-color: aqua;
+    background: transparent;
+    width: 20vh;
 }
 .nav-links{
     list-style: none;
@@ -47,11 +52,25 @@
     font-weight: 550;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.searchbar2{
+    color: rgb(146, 146, 146);
+    background: transparent;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 7px;
+
+}
 header{
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    height: 80px;
     justify-items: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
 }
+
 body{
     align-content: center;
 }
@@ -94,13 +113,17 @@ body{
 }
 .search-logo {
     border: none;
-    border-radius:3rem;
-    width: 30px;
-    height: 25px;
+    width: 60px;
+    height: 30px;
     justify-content: center;
     align-content: center;
-    background: transparent;
-    padding: 3px 0.1px;
+    background-color: crimson;
+    color: azure;
+    align-items: center;
+    border-radius:100%;
+    margin: 6px;
+    padding: 5px;
+
 }
 .places{
     list-style: none;
@@ -110,4 +133,8 @@ body{
     border-radius: 2rem;
     width: 10px;
     height: 10px;
+}
+.worldwide{
+    background: transparent;
+    border: 0;
 }
